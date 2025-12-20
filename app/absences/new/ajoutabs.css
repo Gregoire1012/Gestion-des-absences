@@ -1,0 +1,96 @@
+/* ajoutabs.css */
+.abs-form-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .abs-form-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .abs-form-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1d4ed8;
+  }
+  
+  .abs-form-error {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  .abs-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .abs-form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .abs-form-group input,
+  .abs-form-group select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .abs-form-group input:focus,
+  .abs-form-group select:focus {
+    border-color: #43a047;
+    outline: none;
+  }
+  
+  .abs-form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-cancel {
+    border: 1px solid #9ca3af;
+    background: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  
+  .btn-cancel:hover {
+    background: #f3f4f6;
+  }
+  
+  .btn-submit {
+    background: #43a047;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.2s;
+    border: none;
+  }
+  
+  .btn-submit:hover {
+    background: #43a047;
+  }
+  

@@ -1,0 +1,92 @@
+.edit-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    color: #333
+  }
+  
+  .edit-form-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #1d4ed8;
+  }
+  
+  .edit-form-error {
+    background: #ffe5e5;
+    color: #c00;
+    border: 1px solid #f5c2c2;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-form .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form label {
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  
+  .edit-form input,
+  .edit-form select {
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    transition: border 0.2s, box-shadow 0.2s;
+  }
+  
+  .edit-form input:focus,
+  .edit-form select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-cancel {
+    padding: 0.6rem 1.2rem;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(136, 133, 133);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #abb0b6;
+  }
+  
+  .btn-submit {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: #3b82f6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn-submit:hover {
+    background: #2563eb;
+  }
+  
+  .btn-submit:disabled {
+    background: #93c5fd;
+    cursor: not-allowed;
+  }
+  

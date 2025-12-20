@@ -1,0 +1,152 @@
+/* PAGE */
+.abs-container {
+    padding: 25px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+  
+  .abs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .abs-title {
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #0059b0, #0089ff);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* BUTTONS */
+  .abs-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    background-color: #43a047;
+  }
+  
+  .abs-btn:hover {
+    background-color: #4caf50;
+  }
+
+  
+  .abs-btn-edit {
+    background-color: #ffc107;
+    color: #2b2b2b;
+  }
+  
+  .abs-btn-edit:hover {
+    background-color: #e0ac06;
+  }
+  
+  .abs-btn-delete {
+    background-color: #e53935;
+    color: white;
+  }
+  
+  .abs-btn-delete:hover {
+    background-color: #bb2b29;
+  }
+  
+  /* SEARCH */
+  .abs-search-bar {
+    margin-bottom: 15px;
+  }
+  
+  .abs-input {
+    padding: 9px 12px;
+    width: 40%;
+    border: 1px solid #cfd3d9;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+/* TABLE CONTAINER */
+.pro-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    font-size: 15px;
+  }
+  
+  /* HEADER */
+
+  
+  .pro-table th {
+    padding: 12px 10px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+    background: linear-gradient(90deg, #0059b0, #0089ff);
+    color: white;
+  }
+  
+  /* ROWS */
+  .pro-table tbody tr {
+    transition: 0.25s;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .pro-table tbody tr:nth-child(even) {
+    background: #f9fbfe;
+  }
+  
+  .pro-table tbody tr:hover {
+    background: #eaf3ff;
+  }
+  
+  /* CELLS */
+  .pro-table td {
+    padding: 10px;
+    color: #333;
+  }
+  
+  /* ACTION CELL */
+  .actions-cell {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* BUTTONS */
+  .btn-table {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.25s;
+  }
+  
+  /* EDIT */
+  .btn-table.edit {
+    background: #ffb300;
+    color: white;
+  }
+  
+  .btn-table.edit:hover {
+    background: #e29b00;
+  }
+  
+  /* DELETE */
+  .btn-table.delete {
+    background: #e53935;
+    color: white;
+  }
+  
+  .btn-table.delete:hover {
+    background: #cb2c2a;
+  }
+  

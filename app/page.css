@@ -1,0 +1,104 @@
+/* page.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #0f172a, #1e3a8a);
+    min-height: 100vh;
+    padding: 2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-header {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo-main {
+    color: #fff;
+  }
+  
+  .logo-sub {
+    color: #3b82f6;
+    font-style: italic;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .home-subtitle {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+  }
+  
+  .home-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #fff;
+    color: #1e3a8a;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .home-btn:hover {
+    background-color: #e5e7eb;
+  }
+  
+  /* Features */
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    color: #1e3a8a;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3b82f6;
+  }
+  
+  .feature-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-desc {
+    font-size: 0.95rem;
+    color: #475569;
+  }
+  

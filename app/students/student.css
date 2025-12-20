@@ -1,0 +1,97 @@
+.student-dashboard {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+  }
+
+  .font-bold {
+    background: linear-gradient(90deg, #0059b0, #0089ff);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Boutons */  
+  .btn-add {
+    background-color: #43a047;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .btn-add:hover {
+    background-color: #4caf50;
+  }
+  
+  .btn-delete {
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  .btn-delete:hover {
+    background-color: #dc2626;
+  }
+  
+  .btn-edit {
+    background-color: #f59e0b;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  .btn-edit:hover {
+    background-color: #d97706;
+  }
+  
+  /* Recherche */
+  .input-search {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 220px;
+    transition: 0.3s;
+  }
+  .input-search:focus {
+    outline: none;
+    border-color: #1d4ed8;
+    box-shadow: 0 0 5px rgba(29, 78, 216, 0.5);
+  }
+  
+  /* Pagination */
+  .btn-page {
+    padding: 5px 12px;
+    background-color: #e5e7eb;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  .btn-page:hover:not(:disabled) {
+    background-color: #d1d5db;
+  }
+  .btn-page:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Tableau */
+  .table-wrapper table {
+    border-collapse: collapse;
+
+  }
+  .table-wrapper td {
+    border-bottom: 1px solid #e5e7eb;
+    
+  }
+  .table-wrapper tr:hover {
+    background-color: #dde2eb;
+  }
+
+  .table-wrapper th{
+    background: linear-gradient(90deg, #0059b0, #0089ff);
+    color: white;
+  }
+  
+  
