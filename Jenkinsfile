@@ -8,17 +8,17 @@ pipeline {
 
     stages {
 
-        stage('Clean Workspace') {
-            steps {
-                sh 'rm -rf node_modules .next'
-            }
-        }
+stage('Clean Workspace') {
+    steps {
+        sh 'rm -rf node_modules .next'
+    }
+}
 
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm install'
-            }
-        }
+stage('Install Dependencies') {
+    steps {
+        sh 'npm install'
+    }
+}
 
         stage('Prisma Generate') {
             steps {
