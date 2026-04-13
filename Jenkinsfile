@@ -10,13 +10,13 @@ pipeline {
 
         stage('Clean Workspace') {
             steps {
-                sh 'rm -rf node_modules package-lock.json .next'
+                sh 'rm -rf node_modules .next'
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm ci'
+                sh 'npm install'
             }
         }
 
